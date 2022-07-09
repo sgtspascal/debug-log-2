@@ -1,0 +1,172 @@
+---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 7/9/22, 11:48 PM
+Description: Mod loading error has occurred
+
+java.lang.Exception: Mod Loading has failed
+	at net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:55) ~[forge-1.19-41.0.64-universal.jar%23157!/:?] {re:classloading}
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:39) ~[forge-1.19-41.0.64-universal.jar%23157!/:?] {re:classloading}
+	at net.minecraft.server.Main.main(Main.java:113) ~[server-1.19-20220607.102129-srg.jar%23152!/:?] {re:classloading,re:mixin,pl:mixin:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19-41.0.64.jar%2365!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.1.jar%2353!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.1.jar%2353!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.1.jar%2353!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.1.jar%2353!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.1.jar%2353!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.1.jar%2353!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.1.jar%2353!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.1.jar:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: main
+Stacktrace:
+	at potionstudios.byg.BYG.commonLoad(BYG.java:51) ~[Oh_The_Biomes_You'll_Go-forge-1.19-2.0.0.5.jar%23137!/:2.0.0.5] {re:mixin,re:classloading}
+-- MOD byg --
+Details:
+	Mod File: Oh_The_Biomes_You'll_Go-forge-1.19-2.0.0.5.jar
+	Failure message: Oh The Biomes You'll Go (byg) encountered an error during the common_setup event phase
+		java.lang.IllegalStateException: Config errors were found:
+		
+		Jankson file creation for "/home/minecraft/multicraft/servers/server176362/config/byg/surface_rules/overworld_surface_rules.json5" failed due to the following error(s):
+		Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}
+		
+	Mod Version: 2.0.0.5
+	Mod Issue URL: https://github.com/AOCAWOL/BYG/issues
+	Exception message: java.lang.IllegalStateException: Config errors were found:
+
+Jankson file creation for "/home/minecraft/multicraft/servers/server176362/config/byg/surface_rules/overworld_surface_rules.json5" failed due to the following error(s):
+Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}
+
+Stacktrace:
+	at potionstudios.byg.BYG.commonLoad(BYG.java:51) ~[Oh_The_Biomes_You'll_Go-forge-1.19-2.0.0.5.jar%23137!/:2.0.0.5] {re:mixin,re:classloading}
+	at potionstudios.byg.BYGForge.commonLoad(BYGForge.java:76) ~[Oh_The_Biomes_You'll_Go-forge-1.19-2.0.0.5.jar%23137!/:2.0.0.5] {re:classloading}
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) ~[eventbus-6.0.0.jar%2350!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) ~[eventbus-6.0.0.jar%2350!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-6.0.0.jar%2350!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-6.0.0.jar%2350!/:?] {}
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:107) ~[javafmllanguage-1.19-41.0.64.jar%23154!/:?] {}
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:122) ~[fmlcore-1.19-41.0.64.jar%23153!/:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.19
+	Minecraft Version ID: 1.19
+	Operating System: Linux (amd64) version 4.19.0-9-amd64
+	Java Version: 17.0.1, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 744813776 bytes (710 MiB) / 1073741824 bytes (1024 MiB) up to 2147483648 bytes (2048 MiB)
+	CPUs: 12
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Xeon(R) CPU E5-1650 v4 @ 3.60GHz
+	Identifier: Intel64 Family 6 Model 79 Stepping 1
+	Microarchitecture: Broadwell (Server)
+	Frequency (GHz): 3.60
+	Number of physical packages: 1
+	Number of physical CPUs: 6
+	Number of logical CPUs: 12
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MB): 85915.13
+	Virtual memory used (MB): 139137.41
+	Swap memory total (MB): 21501.99
+	Swap memory used (MB): 21501.99
+	JVM Flags: 2 total; -Xmx2048M -Xms1024M
+	ModLauncher: 10.0.1+10.0.1+main.e9521dc3
+	ModLauncher launch target: forgeserver
+	ModLauncher naming: srg
+	ModLauncher services: 
+		 mixin PLUGINSERVICE 
+		 eventbus PLUGINSERVICE 
+		 slf4jfixer PLUGINSERVICE 
+		 object_holder_definalize PLUGINSERVICE 
+		 runtime_enum_extender PLUGINSERVICE 
+		 capability_token_subclass PLUGINSERVICE 
+		 accesstransformer PLUGINSERVICE 
+		 runtimedistcleaner PLUGINSERVICE 
+		 mixin TRANSFORMATIONSERVICE 
+		 fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		inventorysorter-1.19-20.0.0.jar                   |Simple Inventory Sorter       |inventorysorter               |20.0.0              |SIDED_SETU|Manifest: NOSIGNATURE
+		ftb-essentials-1900.1.8-build.44.jar              |FTB Essentials                |ftbessentials                 |1900.1.8-build.44   |SIDED_SETU|Manifest: NOSIGNATURE
+		infernal-expansion-1.19-2.5.1.jar                 |Infernal Expansion            |infernalexp                   |2.5.1               |SIDED_SETU|Manifest: NOSIGNATURE
+		ellemes-container-library-2.0.0-beta.4+1.19-forge.|Ellemes' Container Library    |ellemes_container_lib         |2.0.0-beta.4        |SIDED_SETU|Manifest: NOSIGNATURE
+		jei-1.19-forge-11.0.0.206.jar                     |Just Enough Items             |jei                           |11.0.0.206          |SIDED_SETU|Manifest: NOSIGNATURE
+		Teletubbies-1.19-10.0.0.jar                       |Teletubbies                   |teletubbies                   |10.0.0              |SIDED_SETU|Manifest: NOSIGNATURE
+		mcw-windows-2.0.3-mc1.19.jar                      |Macaw's Windows               |mcwwindows                    |2.0.3               |SIDED_SETU|Manifest: NOSIGNATURE
+		luggage-1.4.1.jar                                 |Luggage                       |luggage                       |1.4.1               |SIDED_SETU|Manifest: NOSIGNATURE
+		Neat-1.8-31.jar                                   |Neat                          |neat                          |1.8-31              |SIDED_SETU|Manifest: NOSIGNATURE
+		waystones-forge-1.19-11.0.0.jar                   |Waystones                     |waystones                     |11.0.0              |SIDED_SETU|Manifest: NOSIGNATURE
+		citadel-1.12.5-1.19.jar                           |Citadel                       |citadel                       |1.12.5              |SIDED_SETU|Manifest: NOSIGNATURE
+		TravelersBackpack-1.19-8.0.2.jar                  |Traveler's Backpack           |travelersbackpack             |8.0.2               |SIDED_SETU|Manifest: NOSIGNATURE
+		spawnermod-1.19.0-1.8.16+Forge.jar                |Enhanced Mob Spawners         |spawnermod                    |1.8.16              |SIDED_SETU|Manifest: NOSIGNATURE
+		guardvillagers-1.19-1.5.0.jar                     |Guard Villagers               |guardvillagers                |1.4.2               |SIDED_SETU|Manifest: NOSIGNATURE
+		mcw-doors-1.0.6-mc1.19.jar                        |Macaw's Doors                 |mcwdoors                      |1.0.6               |SIDED_SETU|Manifest: NOSIGNATURE
+		balm-4.3.0.jar                                    |Balm                          |balm                          |4.3.0               |SIDED_SETU|Manifest: NOSIGNATURE
+		gunswithoutroses-1.19-1.1.0.jar                   |Guns Without Roses            |gunswithoutroses              |1.19-1.1.0          |SIDED_SETU|Manifest: NOSIGNATURE
+		forge-1.19-41.0.64-universal.jar                  |Forge                         |forge                         |41.0.64             |SIDED_SETU|Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90
+		upgradednetherite-1.19-5.0.0.3-beta.jar           |Upgraded Netherite            |upgradednetherite             |1.19-5.0.0.3-beta   |SIDED_SETU|Manifest: NOSIGNATURE
+		flytre_lib-1.19-1.8.8-forge.jar                   |FlytreLib                     |flytre_lib                    |1.8.8               |SIDED_SETU|Manifest: NOSIGNATURE
+		server-1.19-20220607.102129-srg.jar               |Minecraft                     |minecraft                     |1.19                |SIDED_SETU|Manifest: NOSIGNATURE
+		mcw-bridges-2.0.3-mc1.19.jar                      |Macaw's Bridges               |mcwbridges                    |2.0.3               |SIDED_SETU|Manifest: NOSIGNATURE
+		repurposed_structures_forge-6.1.1+1.19.jar        |Repurposed Structures         |repurposed_structures         |6.1.1+1.19          |SIDED_SETU|Manifest: NOSIGNATURE
+		morevillagers-forge-1.19-4.0.2.jar                |More Villagers                |morevillagers                 |4.0.2               |SIDED_SETU|Manifest: NOSIGNATURE
+		TerraBlender-forge-1.19-2.0.0.118.jar             |TerraBlender                  |terrablender                  |2.0.0.118           |SIDED_SETU|Manifest: NOSIGNATURE
+		mcw-trapdoors-1.0.6-mc1.19.jar                    |Macaw's Trapdoors             |mcwtrpdoors                   |1.0.6               |SIDED_SETU|Manifest: NOSIGNATURE
+		mcw-fences-1.0.5-mc1.19.jar                       |Macaw's Fences and Walls      |mcwfences                     |1.0.5               |SIDED_SETU|Manifest: NOSIGNATURE
+		supermartijn642corelib-1.0.18-forge-mc1.19.jar    |SuperMartijn642's Core Lib    |supermartijn642corelib        |1.0.18              |SIDED_SETU|Manifest: NOSIGNATURE
+		DarkerDepths-1.19-1.0.3.jar                       |Darker Depths                 |darkerdepths                  |1.19-1.0.3          |SIDED_SETU|Manifest: NOSIGNATURE
+		easy_villagers-1.19-1.0.3.jar                     |Easy Villagers                |easy_villagers                |1.19-1.0.3          |SIDED_SETU|Manifest: NOSIGNATURE
+		curios-forge-1.19-5.1.0.2.jar                     |Curios API                    |curios                        |1.19-5.1.0.2        |SIDED_SETU|Manifest: NOSIGNATURE
+		ecologics-forge-1.19-2.1.2.jar                    |Ecologics                     |ecologics                     |2.1.2               |SIDED_SETU|Manifest: NOSIGNATURE
+		randomite-1.19-1.1.2.jar                          |Randomite Classic             |randomite                     |1.1.2               |SIDED_SETU|Manifest: NOSIGNATURE
+		gravestone-1.19-1.0.1.jar                         |Gravestone Mod                |gravestone                    |1.19-1.0.1          |SIDED_SETU|Manifest: NOSIGNATURE
+		Croptopia-1.19-FORGE-2.0.6.jar                    |Croptopia                     |croptopia                     |2.0.6               |SIDED_SETU|Manifest: NOSIGNATURE
+		extra_tnt-1.19-1.0.6-forge.jar                    |Extra Tnt                     |extra_tnt                     |1.0.6               |SIDED_SETU|Manifest: NOSIGNATURE
+		elevatorid-1.19-1.8.5.jar                         |Elevator Mod                  |elevatorid                    |1.19-1.8.5          |SIDED_SETU|Manifest: NOSIGNATURE
+		expandedstorage-8.0.0-beta.4+1.19-forge.jar       |Expanded Storage              |expandedstorage               |8.0.0-beta.4        |SIDED_SETU|Manifest: NOSIGNATURE
+		upgradedcore-1.19-4.0.0.2-beta.jar                |Upgraded Core                 |upgradedcore                  |1.19-4.0.0.2-beta   |SIDED_SETU|Manifest: NOSIGNATURE
+		MoreVanillaArmor-1.19-4.0.2.jar                   |MoreVanillaArmor              |morevanillaarmor              |1.19-4.0.2          |SIDED_SETU|Manifest: NOSIGNATURE
+		mcw-roofs-2.1.2-mc1.19.jar                        |Macaw's Roofs                 |mcwroofs                      |2.1.2               |SIDED_SETU|Manifest: NOSIGNATURE
+		architectury-5.8.29-forge.jar                     |Architectury                  |architectury                  |5.8.29              |SIDED_SETU|Manifest: NOSIGNATURE
+		ftb-library-forge-1900.3.7-build.131.jar          |FTB Library                   |ftblibrary                    |1900.3.7-build.131  |SIDED_SETU|Manifest: NOSIGNATURE
+		friendsandfoes-forge-mc1.19-1.5.4.jar             |Friends&Foes                  |friendsandfoes                |1.5.4               |SIDED_SETU|Manifest: NOSIGNATURE
+		animal_feeding_trough-1.0.3+1.19-forge.jar        |Animal Feeding Trough         |animal_feeding_trough         |1.0.3+1.19-forge    |SIDED_SETU|Manifest: NOSIGNATURE
+		ferritecore-5.0.0-forge.jar                       |Ferrite Core                  |ferritecore                   |5.0.0               |SIDED_SETU|Manifest: 41:ce:50:66:d1:a0:05:ce:a1:0e:02:85:9b:46:64:e0:bf:2e:cf:60:30:9a:fe:0c:27:e0:63:66:9a:84:ce:8a
+		upgradednetherite_ultimate-1.19-4.0.0.1-beta.jar  |Upgraded Netherite : Ultimerit|upgradednetherite_ultimate    |1.19-4.0.0.1-beta   |SIDED_SETU|Manifest: NOSIGNATURE
+		trashcans-1.0.15-forge-mc1.19.jar                 |Trash Cans                    |trashcans                     |1.0.15              |SIDED_SETU|Manifest: NOSIGNATURE
+		Oh_The_Biomes_You'll_Go-forge-1.19-2.0.0.5.jar    |Oh The Biomes You'll Go       |byg                           |2.0.0.5             |ERROR     |Manifest: NOSIGNATURE
+		macawsbridgesbyg-1.19-1.0.jar                     |Macaw's Bridges - BYG         |macawsbridgesbyg              |1.19-1.0            |SIDED_SETU|Manifest: NOSIGNATURE
+		mcwfencesbyg-1.19-1.0.jar                         |Macaw's Fences - BYG          |mcwfencesbyg                  |1.19-1.0            |SIDED_SETU|Manifest: NOSIGNATURE
+		Aquaculture-1.19-2.4.2.jar                        |Aquaculture 2                 |aquaculture                   |1.19-2.4.2          |SIDED_SETU|Manifest: NOSIGNATURE
+		sulfurpotassiummod-1.19-2.3.3+Forge.jar           |Sulfur & Potassium Mod        |sulfurpotassiummod            |2.3.3               |SIDED_SETU|Manifest: NOSIGNATURE
+		geckolib-forge-1.19-3.1.7.jar                     |GeckoLib                      |geckolib3                     |3.1.7               |SIDED_SETU|Manifest: NOSIGNATURE
+		exlinefurniture-forge-1.19-v2.1.0.jar             |Exline's Furniture Mod        |exlinefurniture               |2.1.0               |SIDED_SETU|Manifest: NOSIGNATURE
+		domesticationinnovation-1.5.2-1.19.jar            |Domestication Innovation      |domesticationinnovation       |1.5.2               |SIDED_SETU|Manifest: NOSIGNATURE
+		mcw-lights-1.0.3-mc1.19.jar                       |Macaw's Lights and Lamps      |mcwlights                     |1.0.3               |SIDED_SETU|Manifest: NOSIGNATURE
+	Crash Report UUID: 17fe1aa5-a3fb-49b2-a992-d01f817ccd54
+	FML: 41.0
+	Forge: net.minecraftforge:41.0.64
