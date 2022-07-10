@@ -1,0 +1,796 @@
+[09Jul2022 23:48:09.802] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 41.0.64, --fml.mcVersion, 1.19, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220607.102129, nogui]
+[09Jul2022 23:48:09.830] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.1+10.0.1+main.e9521dc3 starting: java version 17.0.1 by Oracle Corporation; OS Linux arch amd64 version 4.19.0-9-amd64
+[09Jul2022 23:48:10.176] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/minecraft/multicraft/servers/server176362/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2362!/ Service=ModLauncher Env=SERVER
+[09Jul2022 23:48:11.175] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/minecraft/multicraft/servers/server176362/libraries/net/minecraftforge/fmlcore/1.19-41.0.64/fmlcore-1.19-41.0.64.jar is missing mods.toml file
+[09Jul2022 23:48:11.184] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/minecraft/multicraft/servers/server176362/libraries/net/minecraftforge/javafmllanguage/1.19-41.0.64/javafmllanguage-1.19-41.0.64.jar is missing mods.toml file
+[09Jul2022 23:48:11.186] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/minecraft/multicraft/servers/server176362/libraries/net/minecraftforge/lowcodelanguage/1.19-41.0.64/lowcodelanguage-1.19-41.0.64.jar is missing mods.toml file
+[09Jul2022 23:48:11.190] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/minecraft/multicraft/servers/server176362/libraries/net/minecraftforge/mclanguage/1.19-41.0.64/mclanguage-1.19-41.0.64.jar is missing mods.toml file
+[09Jul2022 23:48:11.333] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[09Jul2022 23:48:15.624] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[09Jul2022 23:48:16.013] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[09Jul2022 23:48:16.217] [main/WARN] [mixin/]: Reference map 'morevillagers-forge-forge-refmap.json' for morevillagers.mixins.json could not be read. If this is a development environment you can ignore this message
+[09Jul2022 23:48:16.270] [main/WARN] [mixin/]: Reference map 'extra_tnt-1.19-1.0.6-forge-Forge-refmap.json' for extra_tnt.mixins.json could not be read. If this is a development environment you can ignore this message
+[09Jul2022 23:48:16.276] [main/WARN] [mixin/]: Reference map 'extra_tnt-1.19-1.0.6-forge-Forge-refmap.json' for extra_tnt-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[09Jul2022 23:48:24.393] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[09Jul2022 23:48:26.942] [main/WARN] [mixin/]: @ModifyVariable(@At("INVOKE")) Shift.BY=4 on infernal-expansion.mixins.json:common.MixinMultiNoiseBiomeSourcePreset::localvar$zzh000$IE_addNetherBiomes exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[09Jul2022 23:48:28.722] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Sound Events Registered!
+[09Jul2022 23:48:28.772] [modloading-worker-0/INFO] [spawnermod/]: Config path: [/home/minecraft/multicraft/servers/server176362/config]
+[09Jul2022 23:48:28.773] [modloading-worker-0/INFO] [spawnermod/]: Reading config values from file.
+[09Jul2022 23:48:28.950] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 41.0.64, for MC 1.19 with MCP 20220607.102129
+[09Jul2022 23:48:28.952] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v41.0.64 Initialized
+[09Jul2022 23:48:29.084] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Blocks Registered!
+[09Jul2022 23:48:29.085] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Items Registered!
+[09Jul2022 23:48:29.118] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Effects Registered!
+[09Jul2022 23:48:29.120] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Potions Registered!
+[09Jul2022 23:48:29.144] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Entity Types Registered!
+[09Jul2022 23:48:29.210] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Painting Types Registered!
+[09Jul2022 23:48:29.218] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Tile Entity Types Registered!
+[09Jul2022 23:48:29.220] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Biomes Registered!
+[09Jul2022 23:48:29.231] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Loot Modifiers Registered!
+[09Jul2022 23:48:29.237] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Biome Modifiers Registered!
+[09Jul2022 23:48:29.276] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Entity Classifications Registered!
+[09Jul2022 23:48:29.765] [modloading-worker-0/INFO] [Animal Feeding Trough/]: [Animal Feeding Trough] Load Complete! Enjoy :D
+[09Jul2022 23:48:29.767] [modloading-worker-0/INFO] [fr.samlegamer.macawsbridgesbyg.MacawsBridgesBYG/]: Macaw's Bridges - Oh The Biomes You'll Go : Loading ...
+[09Jul2022 23:48:29.793] [modloading-worker-0/INFO] [fr.samlegamer.mcwfencesbyg.McwFencesBYG/]: Macaw's Fences - Oh The Biomes You'll Go : Loading ...
+[09Jul2022 23:48:29.837] [modloading-worker-0/INFO] [fr.samlegamer.mcwfencesbyg.McwFencesBYG/]: Macaw's Fences - Oh The Biomes You'll Go : Is Charged
+[09Jul2022 23:48:29.862] [modloading-worker-0/INFO] [fr.samlegamer.macawsbridgesbyg.MacawsBridgesBYG/]: Macaw's Bridges - Oh The Biomes You'll Go : Is Charged
+[09Jul2022 23:48:29.878] [modloading-worker-0/INFO] [com.branders.sulfurpotassiummod.SulfurPotassiumMod/]: Config Path: [/home/minecraft/multicraft/servers/server176362/config]
+[09Jul2022 23:48:29.882] [modloading-worker-0/INFO] [com.branders.sulfurpotassiummod.SulfurPotassiumMod/]: Config initialized
+[09Jul2022 23:48:37.372] [main/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/]: Exception caught during firing event: net/minecraftforge/client/model/data/IModelData
+	Index: 3
+	Listeners:
+		0: NORMAL
+		1: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@20efc39e handleEvent(Lnet/minecraftforge/registries/RegisterEvent;)V
+		2: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@65f51459 handleEvent(Lnet/minecraftforge/registries/RegisterEvent;)V
+		3: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@f47565d handleEvent(Lnet/minecraftforge/registries/RegisterEvent;)V
+		4: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@13363f70 handleEvent(Lnet/minecraftforge/registries/RegisterEvent;)V
+		5: ASM: net.minecraftforge.registries.DeferredRegister$EventDispatcher@4d1bfdbb handleEvent(Lnet/minecraftforge/registries/RegisterEvent;)V
+java.lang.NoClassDefFoundError: net/minecraftforge/client/model/data/IModelData
+	at TRANSFORMER/elevatorid@1.19-1.8.5/xyz.vsngamer.elevatorid.init.Registry.lambda$static$3(Registry.java:40)
+	at TRANSFORMER/forge@41.0.64/net.minecraftforge.registries.DeferredRegister.lambda$addEntries$1(DeferredRegister.java:388)
+	at TRANSFORMER/forge@41.0.64/net.minecraftforge.registries.RegisterEvent.register(RegisterEvent.java:59)
+	at TRANSFORMER/forge@41.0.64/net.minecraftforge.registries.DeferredRegister.addEntries(DeferredRegister.java:388)
+	at TRANSFORMER/forge@41.0.64/net.minecraftforge.registries.DeferredRegister$EventDispatcher.handleEvent(DeferredRegister.java:330)
+	at TRANSFORMER/forge@41.0.64/net.minecraftforge.registries.__EventDispatcher_handleEvent_RegisterEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:93)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+	at LAYER PLUGIN/javafmllanguage@1.19-41.0.64/net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:107)
+	at LAYER PLUGIN/fmlcore@1.19-41.0.64/net.minecraftforge.fml.ModLoader.lambda$postEventWithWrapInModOrder$35(ModLoader.java:315)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at LAYER PLUGIN/fmlcore@1.19-41.0.64/net.minecraftforge.fml.ModList.forEachModInOrder(ModList.java:225)
+	at LAYER PLUGIN/fmlcore@1.19-41.0.64/net.minecraftforge.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:313)
+	at TRANSFORMER/forge@41.0.64/net.minecraftforge.registries.GameData.postRegisterEvents(GameData.java:320)
+	at TRANSFORMER/forge@41.0.64/net.minecraftforge.common.ForgeStatesProvider.lambda$new$4(ForgeStatesProvider.java:25)
+	at LAYER PLUGIN/fmlcore@1.19-41.0.64/net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$23(ModLoader.java:207)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at LAYER PLUGIN/fmlcore@1.19-41.0.64/net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:207)
+	at LAYER PLUGIN/fmlcore@1.19-41.0.64/net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$14(ModLoader.java:185)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at LAYER PLUGIN/fmlcore@1.19-41.0.64/net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:185)
+	at TRANSFORMER/forge@41.0.64/net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:32)
+	at TRANSFORMER/minecraft@1.19/net.minecraft.server.Main.main(Main.java:113)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at MC-BOOTSTRAP/fmlloader@1.19-41.0.64/net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.1/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.1/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.1/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.1/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.1/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.1/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.1/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+	at cpw.mods.bootstraplauncher@1.1.1/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
+Caused by: java.lang.ClassNotFoundException: net.minecraftforge.client.model.data.IModelData
+	at cpw.mods.securejarhandler@2.0.3/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 37 more
+
+[09Jul2022 23:48:37.384] [main/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Caught exception during event RegisterEvent dispatch for modid elevatorid
+java.lang.NoClassDefFoundError: net/minecraftforge/client/model/data/IModelData
+	at xyz.vsngamer.elevatorid.init.Registry.lambda$static$3(Registry.java:40) ~[elevatorid-1.19-1.8.5.jar%23106!/:1.19-1.8.5]
+	at net.minecraftforge.registries.DeferredRegister.lambda$addEntries$1(DeferredRegister.java:388) ~[forge-1.19-41.0.64-universal.jar%23157!/:?]
+	at net.minecraftforge.registries.RegisterEvent.register(RegisterEvent.java:59) ~[forge-1.19-41.0.64-universal.jar%23157!/:?]
+	at net.minecraftforge.registries.DeferredRegister.addEntries(DeferredRegister.java:388) ~[forge-1.19-41.0.64-universal.jar%23157!/:?]
+	at net.minecraftforge.registries.DeferredRegister$EventDispatcher.handleEvent(DeferredRegister.java:330) ~[forge-1.19-41.0.64-universal.jar%23157!/:?]
+	at net.minecraftforge.registries.__EventDispatcher_handleEvent_RegisterEvent.invoke(.dynamic) ~[forge-1.19-41.0.64-universal.jar%23157!/:?]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:93) ~[eventbus-6.0.0.jar%2350!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-6.0.0.jar%2350!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-6.0.0.jar%2350!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:107) ~[javafmllanguage-1.19-41.0.64.jar%23154!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$postEventWithWrapInModOrder$35(ModLoader.java:315) ~[fmlcore-1.19-41.0.64.jar%23153!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModList.forEachModInOrder(ModList.java:225) ~[fmlcore-1.19-41.0.64.jar%23153!/:?]
+	at net.minecraftforge.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:313) ~[fmlcore-1.19-41.0.64.jar%23153!/:?]
+	at net.minecraftforge.registries.GameData.postRegisterEvents(GameData.java:320) ~[forge-1.19-41.0.64-universal.jar%23157!/:?]
+	at net.minecraftforge.common.ForgeStatesProvider.lambda$new$4(ForgeStatesProvider.java:25) ~[forge-1.19-41.0.64-universal.jar%23157!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$23(ModLoader.java:207) ~[fmlcore-1.19-41.0.64.jar%23153!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:207) ~[fmlcore-1.19-41.0.64.jar%23153!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$14(ModLoader.java:185) ~[fmlcore-1.19-41.0.64.jar%23153!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:185) ~[fmlcore-1.19-41.0.64.jar%23153!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:32) ~[forge-1.19-41.0.64-universal.jar%23157!/:?]
+	at net.minecraft.server.Main.main(Main.java:113) ~[server-1.19-20220607.102129-srg.jar%23152!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19-41.0.64.jar%2365!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.1.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.1.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.1.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.1.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.1.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.1.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.1.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.1.jar:?]
+Caused by: java.lang.ClassNotFoundException: net.minecraftforge.client.model.data.IModelData
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.0.3.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	... 37 more
+[09Jul2022 23:48:37.766] [main/FATAL] [net.minecraftforge.registries.GameData/]: Failed to register some entries, see suppressed exceptions for details
+java.lang.RuntimeException: null
+	at net.minecraftforge.registries.GameData.postRegisterEvents(GameData.java:305) ~[forge-1.19-41.0.64-universal.jar%23157!/:?]
+	at net.minecraftforge.common.ForgeStatesProvider.lambda$new$4(ForgeStatesProvider.java:25) ~[forge-1.19-41.0.64-universal.jar%23157!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$23(ModLoader.java:207) ~[fmlcore-1.19-41.0.64.jar%23153!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:207) ~[fmlcore-1.19-41.0.64.jar%23153!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$14(ModLoader.java:185) ~[fmlcore-1.19-41.0.64.jar%23153!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:185) ~[fmlcore-1.19-41.0.64.jar%23153!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:32) ~[forge-1.19-41.0.64-universal.jar%23157!/:?]
+	at net.minecraft.server.Main.main(Main.java:113) ~[server-1.19-20220607.102129-srg.jar%23152!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19-41.0.64.jar%2365!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.1.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.1.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.1.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.1.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.1.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.1.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.1.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.1.jar:?]
+	Suppressed: net.minecraftforge.fml.ModLoadingException: Elevator Mod (elevatorid) encountered an error during the common_setup event phase
+§7java.lang.NoClassDefFoundError: net/minecraftforge/client/model/data/IModelData
+		at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:111) ~[javafmllanguage-1.19-41.0.64.jar%23154!/:?]
+		at net.minecraftforge.fml.ModLoader.lambda$postEventWithWrapInModOrder$35(ModLoader.java:315) ~[fmlcore-1.19-41.0.64.jar%23153!/:?]
+		at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+		at net.minecraftforge.fml.ModList.forEachModInOrder(ModList.java:225) ~[fmlcore-1.19-41.0.64.jar%23153!/:?]
+		at net.minecraftforge.fml.ModLoader.postEventWithWrapInModOrder(ModLoader.java:313) ~[fmlcore-1.19-41.0.64.jar%23153!/:?]
+		at net.minecraftforge.registries.GameData.postRegisterEvents(GameData.java:320) ~[forge-1.19-41.0.64-universal.jar%23157!/:?]
+		at net.minecraftforge.common.ForgeStatesProvider.lambda$new$4(ForgeStatesProvider.java:25) ~[forge-1.19-41.0.64-universal.jar%23157!/:?]
+		at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$23(ModLoader.java:207) ~[fmlcore-1.19-41.0.64.jar%23153!/:?]
+		at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+		at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:207) ~[fmlcore-1.19-41.0.64.jar%23153!/:?]
+		at net.minecraftforge.fml.ModLoader.lambda$gatherAndInitializeMods$14(ModLoader.java:185) ~[fmlcore-1.19-41.0.64.jar%23153!/:?]
+		at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+		at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:185) ~[fmlcore-1.19-41.0.64.jar%23153!/:?]
+		at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:32) ~[forge-1.19-41.0.64-universal.jar%23157!/:?]
+		at net.minecraft.server.Main.main(Main.java:113) ~[server-1.19-20220607.102129-srg.jar%23152!/:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+		at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+		at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+		at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+		at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19-41.0.64.jar%2365!/:?]
+		at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.1.jar%2353!/:?]
+		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.1.jar%2353!/:?]
+		at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.1.jar%2353!/:?]
+		at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.1.jar%2353!/:?]
+		at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.1.jar%2353!/:?]
+		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.1.jar%2353!/:?]
+		at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.1.jar%2353!/:?]
+		at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.1.jar:?]
+	Caused by: java.lang.NoClassDefFoundError: net/minecraftforge/client/model/data/IModelData
+		at xyz.vsngamer.elevatorid.init.Registry.lambda$static$3(Registry.java:40) ~[elevatorid-1.19-1.8.5.jar%23106!/:1.19-1.8.5]
+		at net.minecraftforge.registries.DeferredRegister.lambda$addEntries$1(DeferredRegister.java:388) ~[forge-1.19-41.0.64-universal.jar%23157!/:?]
+		at net.minecraftforge.registries.RegisterEvent.register(RegisterEvent.java:59) ~[forge-1.19-41.0.64-universal.jar%23157!/:?]
+		at net.minecraftforge.registries.DeferredRegister.addEntries(DeferredRegister.java:388) ~[forge-1.19-41.0.64-universal.jar%23157!/:?]
+		at net.minecraftforge.registries.DeferredRegister$EventDispatcher.handleEvent(DeferredRegister.java:330) ~[forge-1.19-41.0.64-universal.jar%23157!/:?]
+		at net.minecraftforge.registries.__EventDispatcher_handleEvent_RegisterEvent.invoke(.dynamic) ~[forge-1.19-41.0.64-universal.jar%23157!/:?]
+		at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:93) ~[eventbus-6.0.0.jar%2350!/:?]
+		at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-6.0.0.jar%2350!/:?]
+		at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-6.0.0.jar%2350!/:?]
+		at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:107) ~[javafmllanguage-1.19-41.0.64.jar%23154!/:?]
+		... 27 more
+	Caused by: java.lang.ClassNotFoundException: net.minecraftforge.client.model.data.IModelData
+		at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.0.3.jar:?]
+		at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+		at xyz.vsngamer.elevatorid.init.Registry.lambda$static$3(Registry.java:40) ~[elevatorid-1.19-1.8.5.jar%23106!/:1.19-1.8.5]
+		at net.minecraftforge.registries.DeferredRegister.lambda$addEntries$1(DeferredRegister.java:388) ~[forge-1.19-41.0.64-universal.jar%23157!/:?]
+		at net.minecraftforge.registries.RegisterEvent.register(RegisterEvent.java:59) ~[forge-1.19-41.0.64-universal.jar%23157!/:?]
+		at net.minecraftforge.registries.DeferredRegister.addEntries(DeferredRegister.java:388) ~[forge-1.19-41.0.64-universal.jar%23157!/:?]
+		at net.minecraftforge.registries.DeferredRegister$EventDispatcher.handleEvent(DeferredRegister.java:330) ~[forge-1.19-41.0.64-universal.jar%23157!/:?]
+		at net.minecraftforge.registries.__EventDispatcher_handleEvent_RegisterEvent.invoke(.dynamic) ~[forge-1.19-41.0.64-universal.jar%23157!/:?]
+		at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:93) ~[eventbus-6.0.0.jar%2350!/:?]
+		at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-6.0.0.jar%2350!/:?]
+		at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-6.0.0.jar%2350!/:?]
+		at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:107) ~[javafmllanguage-1.19-41.0.64.jar%23154!/:?]
+		... 27 more
+[09Jul2022 23:48:37.793] [main/FATAL] [net.minecraftforge.registries.GameData/]: Detected errors during registry event dispatch, rolling back to VANILLA state
+[09Jul2022 23:48:39.950] [main/FATAL] [net.minecraftforge.registries.GameData/]: Detected errors during registry event dispatch, roll back to VANILLA complete
+[09Jul2022 23:48:39.959] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/minecraft/multicraft/servers/server176362/config/citadel-common.toml is not correct. Correcting
+[09Jul2022 23:48:39.961] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:39.961] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Track Entities was corrected from null to its default, true. 
+[09Jul2022 23:48:39.962] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.Skip Datapack Warnings was corrected from null to its default, true. 
+[09Jul2022 23:48:39.962] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.chunkGenSpawnModifier was corrected from null to its default, 1.0. 
+[09Jul2022 23:48:39.965] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/minecraft/multicraft/servers/server176362/config/guardvillagers-common.toml is not correct. Correcting
+[09Jul2022 23:48:39.965] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key raids and illagers was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:39.966] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key raids and illagers.Illagers in raids attack animals? was corrected from null to its default, false. 
+[09Jul2022 23:48:39.966] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key raids and illagers.Witches attack villagers? was corrected from null to its default, true. 
+[09Jul2022 23:48:39.966] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key raids and illagers.Have Illusioners in raids? was corrected from null to its default, false. 
+[09Jul2022 23:48:39.966] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key raids and illagers.Have Illagers have some common sense? was corrected from null to its default, true. 
+[09Jul2022 23:48:39.967] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob ai in general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:39.967] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob ai in general.Guards attack all mobs? was corrected from null to its default, false. 
+[09Jul2022 23:48:39.967] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mob ai in general.Mob BlackList was corrected from null to its default, []. 
+[09Jul2022 23:48:39.968] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key villager stuff was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:39.968] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key villager stuff.Allow armorers and weaponsmiths repair guard items when down below half durability? was corrected from null to its default, true. 
+[09Jul2022 23:48:39.969] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key villager stuff.Make it so players have to have hero of the village to convert villagers into guards? was corrected from null to its default, false. 
+[09Jul2022 23:48:39.969] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key villager stuff.Have it so blacksmiths heal golems under 60 health? was corrected from null to its default, true. 
+[09Jul2022 23:48:39.969] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key villager stuff.Have it so clerics heal guards and players with hero of the village? was corrected from null to its default, true. 
+[09Jul2022 23:48:39.969] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key villager stuff.Have Villagers have some common sense? was corrected from null to its default, true. 
+[09Jul2022 23:48:39.970] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:39.970] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Have Guards have some common sense? was corrected from null to its default, false. 
+[09Jul2022 23:48:39.970] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Have Guards open doors? was corrected from null to its default, true. 
+[09Jul2022 23:48:39.971] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Have Guards raise their shield all the time? was corrected from null to its default, false. 
+[09Jul2022 23:48:39.971] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Have guards form a phalanx? was corrected from null to its default, true. 
+[09Jul2022 23:48:39.972] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Have guards attempt to avoid firing into other friendlies? (Experimental) was corrected from null to its default, false. 
+[09Jul2022 23:48:39.973] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Range was corrected from null to its default, 50.0. 
+[09Jul2022 23:48:39.974] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Guard health regeneration amount was corrected from null to its default, 1.0. 
+[09Jul2022 23:48:39.974] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Allow guard arrows to damage villagers, iron golems, or other guards? The i-frames will still be shown for them but they won't lose any health if this is set to false was corrected from null to its default, true. 
+[09Jul2022 23:48:39.975] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Allow players to give guards stuff only if they have the hero of the village effect? was corrected from null to its default, false. 
+[09Jul2022 23:48:39.975] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Allow players to set guard patrol points only if they have hero of the village was corrected from null to its default, false. 
+[09Jul2022 23:48:39.976] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key guard stuff.Minimum reputation requirement for guards to give you access to their inventories was corrected from null to its default, 15. 
+[09Jul2022 23:48:39.979] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/minecraft/multicraft/servers/server176362/config/travelersbackpack-common.toml is not correct. Correcting
+[09Jul2022 23:48:39.979] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:39.979] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.curiosIntegration was corrected from null to its default, false. 
+[09Jul2022 23:48:39.980] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.enableBackpackAbilities was corrected from null to its default, true. 
+[09Jul2022 23:48:39.981] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackDeathPlace was corrected from null to its default, true. 
+[09Jul2022 23:48:39.981] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.backpackForceDeathPlace was corrected from null to its default, false. 
+[09Jul2022 23:48:39.982] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.enableEmptyTankButton was corrected from null to its default, true. 
+[09Jul2022 23:48:39.983] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.enableSleepingBagSpawnPoint was corrected from null to its default, false. 
+[09Jul2022 23:48:39.983] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key common.enableLoot was corrected from null to its default, true. 
+[09Jul2022 23:48:39.992] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/minecraft/multicraft/servers/server176362/config/repurposed_structures-forge/modded_loot.toml is not correct. Correcting
+[09Jul2022 23:48:39.996] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key importModdedItems was corrected from null to its default, true. 
+[09Jul2022 23:48:39.997] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blacklistedRSLoottablesFromImportingModdedItems was corrected from null to its default, . 
+[09Jul2022 23:48:40.002] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/minecraft/multicraft/servers/server176362/config/morevillagers-common.toml is not correct. Correcting
+[09Jul2022 23:48:40.009] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key houses was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.009] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key houses.generatePlainsHouses was corrected from null to its default, true. 
+[09Jul2022 23:48:40.011] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key houses.generateTaigaHouses was corrected from null to its default, true. 
+[09Jul2022 23:48:40.020] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key houses.generateSavannaHouses was corrected from null to its default, true. 
+[09Jul2022 23:48:40.021] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key houses.generateSnowyHouses was corrected from null to its default, true. 
+[09Jul2022 23:48:40.022] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key houses.generateDesertHouses was corrected from null to its default, true. 
+[09Jul2022 23:48:40.027] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key houses.weights was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.027] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key houses.weights.woodworkerHouseWeight was corrected from null to its default, 10. 
+[09Jul2022 23:48:40.028] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key houses.weights.oceanographerHouseWeight was corrected from null to its default, 10. 
+[09Jul2022 23:48:40.030] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key houses.weights.floristHouseWeight was corrected from null to its default, 10. 
+[09Jul2022 23:48:40.030] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key houses.weights.hunterHouseWeight was corrected from null to its default, 10. 
+[09Jul2022 23:48:40.030] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key houses.weights.engineerHouseWeight was corrected from null to its default, 10. 
+[09Jul2022 23:48:40.034] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/minecraft/multicraft/servers/server176362/config/waystones-common.toml is not correct. Correcting
+[09Jul2022 23:48:40.034] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.035] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.inverseXpCost was corrected from null to its default, false. 
+[09Jul2022 23:48:40.035] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.blocksPerXpLevel was corrected from null to its default, 1000. 
+[09Jul2022 23:48:40.036] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.minimumBaseXpCost was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.036] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.maximumBaseXpCost was corrected from null to its default, 3.0. 
+[09Jul2022 23:48:40.037] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.xpCostPerLeashed was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.037] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.dimensionalWarpXpCost was corrected from null to its default, 3. 
+[09Jul2022 23:48:40.037] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.globalWaystoneXpCostMultiplier was corrected from null to its default, 1.0. 
+[09Jul2022 23:48:40.037] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.warpStoneXpCostMultiplier was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.038] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.waystoneXpCostMultiplier was corrected from null to its default, 1.0. 
+[09Jul2022 23:48:40.038] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.sharestoneXpCostMultiplier was corrected from null to its default, 1.0. 
+[09Jul2022 23:48:40.038] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.portstoneXpCostMultiplier was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.038] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.warpPlateXpCostMultiplier was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.039] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key xpCost.inventoryButtonXpCostMultiplier was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.042] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.043] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.restrictToCreative was corrected from null to its default, false. 
+[09Jul2022 23:48:40.044] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.restrictRenameToOwner was corrected from null to its default, false. 
+[09Jul2022 23:48:40.044] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.generatedWaystonesUnbreakable was corrected from null to its default, false. 
+[09Jul2022 23:48:40.044] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.transportLeashed was corrected from null to its default, true. 
+[09Jul2022 23:48:40.045] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.transportLeashedDimensional was corrected from null to its default, true. 
+[09Jul2022 23:48:40.045] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.leashedDenyList was corrected from null to its default, [minecraft:wither]. 
+[09Jul2022 23:48:40.046] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.dimensionalWarp was corrected from null to its default, ALLOW. 
+[09Jul2022 23:48:40.046] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.dimensionalWarpAllowList was corrected from null to its default, []. 
+[09Jul2022 23:48:40.046] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.dimensionalWarpDenyList was corrected from null to its default, []. 
+[09Jul2022 23:48:40.046] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.allowWaystoneToWaystoneTeleport was corrected from null to its default, true. 
+[09Jul2022 23:48:40.047] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key restrictions.globalWaystoneSetupRequiresCreativeMode was corrected from null to its default, true. 
+[09Jul2022 23:48:40.050] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cooldowns was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.051] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cooldowns.globalWaystoneCooldownMultiplier was corrected from null to its default, 1.0. 
+[09Jul2022 23:48:40.051] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cooldowns.warpStoneCooldown was corrected from null to its default, 300. 
+[09Jul2022 23:48:40.051] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cooldowns.warpStoneUseTime was corrected from null to its default, 32. 
+[09Jul2022 23:48:40.052] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cooldowns.warpPlateUseTime was corrected from null to its default, 20. 
+[09Jul2022 23:48:40.052] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cooldowns.scrollUseTime was corrected from null to its default, 32. 
+[09Jul2022 23:48:40.054] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cooldowns.inventoryButtonCooldown was corrected from null to its default, 300. 
+[09Jul2022 23:48:40.057] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryButton was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.057] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryButton.inventoryButton was corrected from null to its default, . 
+[09Jul2022 23:48:40.057] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryButton.warpButtonX was corrected from null to its default, 58. 
+[09Jul2022 23:48:40.057] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryButton.warpButtonY was corrected from null to its default, 60. 
+[09Jul2022 23:48:40.058] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryButton.creativeWarpButtonX was corrected from null to its default, 88. 
+[09Jul2022 23:48:40.058] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryButton.creativeWarpButtonY was corrected from null to its default, 33. 
+[09Jul2022 23:48:40.059] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.059] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.worldGenStyle was corrected from null to its default, BIOME. 
+[09Jul2022 23:48:40.059] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.frequency was corrected from null to its default, 25. 
+[09Jul2022 23:48:40.060] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.dimensionAllowList was corrected from null to its default, [minecraft:overworld, minecraft:the_nether, minecraft:the_end]. 
+[09Jul2022 23:48:40.060] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.dimensionDenyList was corrected from null to its default, []. 
+[09Jul2022 23:48:40.060] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.nameGenerationMode was corrected from null to its default, PRESET_FIRST. 
+[09Jul2022 23:48:40.061] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.customWaystoneNames was corrected from null to its default, []. 
+[09Jul2022 23:48:40.061] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.spawnInVillages was corrected from null to its default, true. 
+[09Jul2022 23:48:40.061] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGen.forceSpawnInVillages was corrected from null to its default, false. 
+[09Jul2022 23:48:40.062] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.063] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.disableTextGlow was corrected from null to its default, false. 
+[09Jul2022 23:48:40.063] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.disableParticles was corrected from null to its default, false. 
+[09Jul2022 23:48:40.064] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.064] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key compatibility.displayWaystonesOnJourneyMap was corrected from null to its default, true. 
+[09Jul2022 23:48:40.073] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/minecraft/multicraft/servers/server176362/config/infernalexp-common.toml is not correct. Correcting
+[09Jul2022 23:48:40.075] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.076] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.piglinFearWarpbeetle was corrected from null to its default, true. 
+[09Jul2022 23:48:40.076] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.piglinFearEmbody was corrected from null to its default, true. 
+[09Jul2022 23:48:40.077] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.piglinFearDwarf was corrected from null to its default, true. 
+[09Jul2022 23:48:40.077] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.hoglinFearWarpbeetle was corrected from null to its default, true. 
+[09Jul2022 23:48:40.078] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.hoglinFearEmbody was corrected from null to its default, true. 
+[09Jul2022 23:48:40.078] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.spiderAttackWarpbeetle was corrected from null to its default, true. 
+[09Jul2022 23:48:40.079] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.skeletonAttackPiglin was corrected from null to its default, true. 
+[09Jul2022 23:48:40.079] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.skeletonAttackBrute was corrected from null to its default, true. 
+[09Jul2022 23:48:40.079] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.skeletonAttackEmbody was corrected from null to its default, true. 
+[09Jul2022 23:48:40.079] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.skeletonAttackGiant was corrected from null to its default, true. 
+[09Jul2022 23:48:40.080] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.piglinAttackSkeleton was corrected from null to its default, true. 
+[09Jul2022 23:48:40.080] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.piglinAttackVoline was corrected from null to its default, true. 
+[09Jul2022 23:48:40.080] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.bruteAttackSkeleton was corrected from null to its default, true. 
+[09Jul2022 23:48:40.080] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.bruteAttackVoline was corrected from null to its default, true. 
+[09Jul2022 23:48:40.081] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.ghastAttackEmbody was corrected from null to its default, false. 
+[09Jul2022 23:48:40.081] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.ghastAttackVoline was corrected from null to its default, false. 
+[09Jul2022 23:48:40.081] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.ghastAttackSkeleton was corrected from null to its default, false. 
+[09Jul2022 23:48:40.081] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.ghastAttackGlowsquito was corrected from null to its default, false. 
+[09Jul2022 23:48:40.082] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.glowsquitoAttackDwarf was corrected from null to its default, true. 
+[09Jul2022 23:48:40.082] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.glowsquitoAttackLuminous was corrected from null to its default, true. 
+[09Jul2022 23:48:40.082] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.dwarfAttackPiglin was corrected from null to its default, true. 
+[09Jul2022 23:48:40.082] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.dwarfAttackZombiePiglin was corrected from null to its default, true. 
+[09Jul2022 23:48:40.083] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.dwarfAttackPlayer was corrected from null to its default, true. 
+[09Jul2022 23:48:40.083] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.blindsightAttackGlowsquito was corrected from null to its default, true. 
+[09Jul2022 23:48:40.083] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.blindsightAttackPlayer was corrected from null to its default, true. 
+[09Jul2022 23:48:40.084] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.giantAttackMagmaCube was corrected from null to its default, true. 
+[09Jul2022 23:48:40.084] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.embodyAttackPiglin was corrected from null to its default, true. 
+[09Jul2022 23:48:40.084] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.embodyAttackPlayer was corrected from null to its default, true. 
+[09Jul2022 23:48:40.084] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.volineAttackFireResistance was corrected from null to its default, true. 
+[09Jul2022 23:48:40.085] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.volineAttackPlayer was corrected from null to its default, true. 
+[09Jul2022 23:48:40.085] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.volineAttackMagmaCube was corrected from null to its default, true. 
+[09Jul2022 23:48:40.085] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.useHogchops was corrected from null to its default, true. 
+[09Jul2022 23:48:40.085] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.glowsilkSpeed was corrected from null to its default, 1.3. 
+[09Jul2022 23:48:40.086] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawning was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.087] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawning.Spawnable Biomes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.087] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawning.Spawnable Biomes.volineBiomes was corrected from null to its default, minecraft:nether_wastes, minecraft:crimson_forest, byg:magma_wastes. 
+[09Jul2022 23:48:40.087] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawning.Spawnable Biomes.warpbeetleBiomes was corrected from null to its default, minecraft:warped_forest, byg:warped_desert. 
+[09Jul2022 23:48:40.088] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawning.Spawnable Biomes.shroomloinBiomes was corrected from null to its default, minecraft:crimson_forest, byg:crimson_gardens, byg:glowstone_gardens, byg:embur_bog, byg:sythian_torrids. 
+[09Jul2022 23:48:40.088] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawning.Spawnable Biomes.basaltGiantBiomes was corrected from null to its default, minecraft:basalt_deltas, infernalexp:delta_shores, byg:magma_wastes. 
+[09Jul2022 23:48:40.089] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawning.Spawnable Biomes.embodyBiomes was corrected from null to its default, minecraft:soul_sand_valley, byg:warped_desert, byg:wailing_garth, byg:withering_woods. 
+[09Jul2022 23:48:40.089] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawning.Spawnable Biomes.glowsquitoBiomes was corrected from null to its default, infernalexp:glowstone_canyon, byg:glowstone_gardens. 
+[09Jul2022 23:48:40.089] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawning.Spawnable Biomes.glowsilkMothBiomes was corrected from null to its default, minecraft:crimson_forest, minecraft:basalt_deltas, infernalexp:glowstone_canyon, byg:glowstone_gardens. 
+[09Jul2022 23:48:40.090] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawning.Spawnable Biomes.blindsightBiomes was corrected from null to its default, infernalexp:glowstone_canyon, byg:glowstone_gardens. 
+[09Jul2022 23:48:40.090] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawning.Spawnable Biomes.blackstoneDwarfBiomes was corrected from null to its default, infernalexp:glowstone_canyon, byg:magma_wastes. 
+[09Jul2022 23:48:40.091] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Bonemeal Behaviour was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.091] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Bonemeal Behaviour.isShroomlightGrowable was corrected from null to its default, true. 
+[09Jul2022 23:48:40.091] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Bonemeal Behaviour.shroomlightGrowChance was corrected from null to its default, 1.0. 
+[09Jul2022 23:48:40.092] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Miscellaneous was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.092] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Miscellaneous.fireChargeExplosion was corrected from null to its default, true. 
+[09Jul2022 23:48:40.092] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Miscellaneous.jerkyEffectDuration was corrected from null to its default, 8. 
+[09Jul2022 23:48:40.093] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Miscellaneous.jerkyEffectAmplifier was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.093] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Miscellaneous.Luminous Fungus was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.093] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Miscellaneous.Luminous Fungus.luminousFungusActivateDistance was corrected from null to its default, 4.0. 
+[09Jul2022 23:48:40.093] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Miscellaneous.Luminous Fungus.luminousFungusGivesEffect was corrected from null to its default, true. 
+[09Jul2022 23:48:40.093] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Miscellaneous.useThrowableBricks was corrected from null to its default, true. 
+[09Jul2022 23:48:40.100] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/minecraft/multicraft/servers/server176362/config/croptopia-common.toml is not correct. Correcting
+[09Jul2022 23:48:40.100] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rightClickHarvest was corrected from null to its default, true. 
+[09Jul2022 23:48:40.101] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key disableSaltGeneration was corrected from null to its default, false. 
+[09Jul2022 23:48:40.101] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.101] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.orange_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.102] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.orange_tree_configured.biomes was corrected from null to its default, [minecraft:flower_forest, minecraft:forest, byg:orchard, minecraft:sunflower_plains, minecraft:windswept_forest, minecraft:plains, byg:red_oak_forest, byg:aspen_forest]. 
+[09Jul2022 23:48:40.102] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.dragon_fruit_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.102] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.dragon_fruit_tree_configured.biomes was corrected from null to its default, [byg:tropical_islands, byg:crag_gardens, minecraft:sparse_jungle, byg:tropical_rainforest, minecraft:jungle]. 
+[09Jul2022 23:48:40.103] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.kumquat_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.103] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.kumquat_tree_configured.biomes was corrected from null to its default, [byg:tropical_islands, byg:crag_gardens, minecraft:sparse_jungle, byg:tropical_rainforest, minecraft:jungle]. 
+[09Jul2022 23:48:40.103] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.banana_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.104] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.banana_tree_configured.biomes was corrected from null to its default, [byg:tropical_islands, byg:crag_gardens, minecraft:sparse_jungle, byg:tropical_rainforest, minecraft:jungle]. 
+[09Jul2022 23:48:40.104] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.plum_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.104] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.plum_tree_configured.biomes was corrected from null to its default, [minecraft:flower_forest, byg:jacaranda_forest, byg:autumnal_forest, minecraft:forest, byg:orchard, minecraft:windswept_forest, byg:red_oak_forest, byg:autumnal_taiga, byg:aspen_forest]. 
+[09Jul2022 23:48:40.104] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.date_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.104] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.date_tree_configured.biomes was corrected from null to its default, [byg:tropical_islands, byg:crag_gardens, minecraft:sparse_jungle, byg:tropical_rainforest, minecraft:jungle]. 
+[09Jul2022 23:48:40.104] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.cashew_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.105] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.cashew_tree_configured.biomes was corrected from null to its default, [byg:twilight_meadow, byg:maple_taiga, minecraft:dark_forest, byg:weeping_witch_forest, byg:dacite_ridges, byg:ebony_woods]. 
+[09Jul2022 23:48:40.105] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.mango_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.105] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.mango_tree_configured.biomes was corrected from null to its default, [byg:tropical_islands, byg:crag_gardens, minecraft:sparse_jungle, byg:tropical_rainforest, minecraft:jungle]. 
+[09Jul2022 23:48:40.105] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.coconut_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.105] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.coconut_tree_configured.biomes was corrected from null to its default, [byg:tropical_islands, byg:crag_gardens, minecraft:sparse_jungle, byg:tropical_rainforest, minecraft:jungle]. 
+[09Jul2022 23:48:40.105] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.apricot_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.106] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.apricot_tree_configured.biomes was corrected from null to its default, [minecraft:flower_forest, minecraft:forest, byg:orchard, byg:red_oak_forest, minecraft:windswept_forest, byg:aspen_forest]. 
+[09Jul2022 23:48:40.106] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.nutmeg_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.106] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.nutmeg_tree_configured.biomes was corrected from null to its default, [byg:tropical_islands, byg:crag_gardens, minecraft:sparse_jungle, byg:tropical_rainforest, minecraft:jungle]. 
+[09Jul2022 23:48:40.106] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.persimmon_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.110] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.persimmon_tree_configured.biomes was corrected from null to its default, [minecraft:flower_forest, byg:jacaranda_forest, byg:autumnal_forest, minecraft:forest, byg:orchard, minecraft:windswept_forest, byg:red_oak_forest, byg:autumnal_taiga, byg:aspen_forest]. 
+[09Jul2022 23:48:40.111] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.almond_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.111] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.almond_tree_configured.biomes was corrected from null to its default, [byg:twilight_meadow, byg:maple_taiga, minecraft:dark_forest, byg:weeping_witch_forest, byg:dacite_ridges, byg:ebony_woods]. 
+[09Jul2022 23:48:40.112] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.avocado_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.112] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.avocado_tree_configured.biomes was corrected from null to its default, [minecraft:flower_forest, minecraft:forest, byg:orchard, byg:red_oak_forest, minecraft:windswept_forest, byg:aspen_forest]. 
+[09Jul2022 23:48:40.112] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.fig_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.112] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.fig_tree_configured.biomes was corrected from null to its default, [byg:tropical_islands, byg:crag_gardens, minecraft:sparse_jungle, byg:tropical_rainforest, minecraft:jungle]. 
+[09Jul2022 23:48:40.113] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.cinnamon_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.113] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.cinnamon_tree_configured.biomes was corrected from null to its default, [byg:cypress_swamplands, minecraft:sparse_jungle, byg:white_mangrove_marshes, byg:temperate_rainforest, byg:tropical_rainforest, byg:tropical_islands, byg:crag_gardens, minecraft:jungle]. 
+[09Jul2022 23:48:40.113] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.peach_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.113] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.peach_tree_configured.biomes was corrected from null to its default, [minecraft:sunflower_plains, minecraft:plains]. 
+[09Jul2022 23:48:40.114] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.apple_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.114] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.apple_tree_configured.biomes was corrected from null to its default, [minecraft:sunflower_plains, minecraft:plains, byg:prairie]. 
+[09Jul2022 23:48:40.114] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.pear_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.114] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.pear_tree_configured.biomes was corrected from null to its default, [minecraft:flower_forest, byg:jacaranda_forest, byg:autumnal_forest, minecraft:forest, byg:orchard, minecraft:windswept_forest, byg:red_oak_forest, byg:autumnal_taiga, byg:aspen_forest]. 
+[09Jul2022 23:48:40.115] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.grapefruit_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.116] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.grapefruit_tree_configured.biomes was corrected from null to its default, [byg:tropical_islands, byg:crag_gardens, minecraft:sparse_jungle, byg:tropical_rainforest, minecraft:jungle]. 
+[09Jul2022 23:48:40.117] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.star_fruit_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.117] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.star_fruit_tree_configured.biomes was corrected from null to its default, [minecraft:flower_forest, minecraft:forest, byg:orchard, byg:red_oak_forest, minecraft:windswept_forest, byg:aspen_forest]. 
+[09Jul2022 23:48:40.117] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.nectarine_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.117] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.nectarine_tree_configured.biomes was corrected from null to its default, [minecraft:flower_forest, minecraft:forest, byg:orchard, byg:red_oak_forest, minecraft:windswept_forest, byg:aspen_forest]. 
+[09Jul2022 23:48:40.118] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.lemon_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.118] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.lemon_tree_configured.biomes was corrected from null to its default, [minecraft:flower_forest, minecraft:forest, byg:orchard, byg:red_oak_forest, minecraft:windswept_forest, byg:aspen_forest]. 
+[09Jul2022 23:48:40.118] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.cherry_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.118] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.cherry_tree_configured.biomes was corrected from null to its default, [minecraft:flower_forest, minecraft:forest, byg:orchard, minecraft:windswept_forest, byg:red_oak_forest, byg:aspen_forest, byg:cherry_blossom_forest]. 
+[09Jul2022 23:48:40.118] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.lime_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.119] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.lime_tree_configured.biomes was corrected from null to its default, [minecraft:flower_forest, minecraft:forest, byg:orchard, byg:red_oak_forest, minecraft:windswept_forest, byg:aspen_forest]. 
+[09Jul2022 23:48:40.122] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.pecan_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.122] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.pecan_tree_configured.biomes was corrected from null to its default, [byg:twilight_meadow, byg:maple_taiga, minecraft:dark_forest, byg:weeping_witch_forest, byg:dacite_ridges, byg:ebony_woods]. 
+[09Jul2022 23:48:40.123] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.walnut_tree_configured was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.123] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldGeneration.walnut_tree_configured.biomes was corrected from null to its default, [byg:twilight_meadow, byg:maple_taiga, minecraft:dark_forest, byg:weeping_witch_forest, byg:dacite_ridges, byg:ebony_woods]. 
+[09Jul2022 23:48:40.133] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/minecraft/multicraft/servers/server176362/config/morevanillaarmor-common.toml is not correct. Correcting
+[09Jul2022 23:48:40.134] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key bone was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.134] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key bone.durabilityFactor was corrected from null to its default, 7. 
+[09Jul2022 23:48:40.134] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key bone.damageReduction was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.134] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key bone.damageReduction.boots was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.134] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key bone.damageReduction.leggings was corrected from null to its default, 2. 
+[09Jul2022 23:48:40.134] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key bone.damageReduction.chest was corrected from null to its default, 3. 
+[09Jul2022 23:48:40.134] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key bone.damageReduction.head was corrected from null to its default, 2. 
+[09Jul2022 23:48:40.134] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key bone.enchantmentValue was corrected from null to its default, 20. 
+[09Jul2022 23:48:40.135] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key bone.thoughness was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.135] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key bone.knockbackResistance was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.135] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key coal was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.136] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key coal.durabilityFactor was corrected from null to its default, 6. 
+[09Jul2022 23:48:40.136] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key coal.damageReduction was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.136] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key coal.damageReduction.boots was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.136] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key coal.damageReduction.leggings was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.136] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key coal.damageReduction.chest was corrected from null to its default, 2. 
+[09Jul2022 23:48:40.137] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key coal.damageReduction.head was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.137] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key coal.enchantmentValue was corrected from null to its default, 10. 
+[09Jul2022 23:48:40.137] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key coal.thoughness was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.137] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key coal.knockbackResistance was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.140] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key copper was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.140] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key copper.durabilityFactor was corrected from null to its default, 6. 
+[09Jul2022 23:48:40.140] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key copper.damageReduction was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.140] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key copper.damageReduction.boots was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.140] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key copper.damageReduction.leggings was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.141] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key copper.damageReduction.chest was corrected from null to its default, 2. 
+[09Jul2022 23:48:40.141] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key copper.damageReduction.head was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.141] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key copper.enchantmentValue was corrected from null to its default, 15. 
+[09Jul2022 23:48:40.141] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key copper.thoughness was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.141] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key copper.knockbackResistance was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.142] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key emerald was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.142] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key emerald.durabilityFactor was corrected from null to its default, 25. 
+[09Jul2022 23:48:40.142] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key emerald.damageReduction was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.142] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key emerald.damageReduction.boots was corrected from null to its default, 2. 
+[09Jul2022 23:48:40.142] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key emerald.damageReduction.leggings was corrected from null to its default, 4. 
+[09Jul2022 23:48:40.143] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key emerald.damageReduction.chest was corrected from null to its default, 6. 
+[09Jul2022 23:48:40.143] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key emerald.damageReduction.head was corrected from null to its default, 2. 
+[09Jul2022 23:48:40.143] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key emerald.enchantmentValue was corrected from null to its default, 25. 
+[09Jul2022 23:48:40.144] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key emerald.thoughness was corrected from null to its default, 1.899999976158142. 
+[09Jul2022 23:48:40.144] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key emerald.knockbackResistance was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.145] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ender was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.145] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ender.durabilityFactor was corrected from null to its default, 21. 
+[09Jul2022 23:48:40.145] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ender.damageReduction was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.145] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ender.damageReduction.boots was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.146] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ender.damageReduction.leggings was corrected from null to its default, 3. 
+[09Jul2022 23:48:40.146] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ender.damageReduction.chest was corrected from null to its default, 5. 
+[09Jul2022 23:48:40.146] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ender.damageReduction.head was corrected from null to its default, 2. 
+[09Jul2022 23:48:40.146] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ender.enchantmentValue was corrected from null to its default, 15. 
+[09Jul2022 23:48:40.147] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ender.thoughness was corrected from null to its default, 0.10000000149011612. 
+[09Jul2022 23:48:40.147] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key ender.knockbackResistance was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.148] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fiery was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.148] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fiery.durabilityFactor was corrected from null to its default, 13. 
+[09Jul2022 23:48:40.149] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fiery.damageReduction was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.149] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fiery.damageReduction.boots was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.149] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fiery.damageReduction.leggings was corrected from null to its default, 3. 
+[09Jul2022 23:48:40.149] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fiery.damageReduction.chest was corrected from null to its default, 4. 
+[09Jul2022 23:48:40.150] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fiery.damageReduction.head was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.150] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fiery.enchantmentValue was corrected from null to its default, 13. 
+[09Jul2022 23:48:40.150] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fiery.thoughness was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.151] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fiery.knockbackResistance was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.152] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key glowstone was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.152] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key glowstone.durabilityFactor was corrected from null to its default, 7. 
+[09Jul2022 23:48:40.152] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key glowstone.damageReduction was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.152] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key glowstone.damageReduction.boots was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.153] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key glowstone.damageReduction.leggings was corrected from null to its default, 2. 
+[09Jul2022 23:48:40.153] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key glowstone.damageReduction.chest was corrected from null to its default, 3. 
+[09Jul2022 23:48:40.153] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key glowstone.damageReduction.head was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.153] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key glowstone.enchantmentValue was corrected from null to its default, 15. 
+[09Jul2022 23:48:40.154] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key glowstone.thoughness was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.154] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key glowstone.knockbackResistance was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.155] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lapis was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.155] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lapis.durabilityFactor was corrected from null to its default, 8. 
+[09Jul2022 23:48:40.156] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lapis.damageReduction was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.156] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lapis.damageReduction.boots was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.156] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lapis.damageReduction.leggings was corrected from null to its default, 3. 
+[09Jul2022 23:48:40.156] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lapis.damageReduction.chest was corrected from null to its default, 5. 
+[09Jul2022 23:48:40.157] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lapis.damageReduction.head was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.157] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lapis.enchantmentValue was corrected from null to its default, 30. 
+[09Jul2022 23:48:40.157] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lapis.thoughness was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.158] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lapis.knockbackResistance was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.159] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.159] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether.durabilityFactor was corrected from null to its default, 11. 
+[09Jul2022 23:48:40.159] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether.damageReduction was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.160] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether.damageReduction.boots was corrected from null to its default, 2. 
+[09Jul2022 23:48:40.160] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether.damageReduction.leggings was corrected from null to its default, 2. 
+[09Jul2022 23:48:40.160] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether.damageReduction.chest was corrected from null to its default, 4. 
+[09Jul2022 23:48:40.160] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether.damageReduction.head was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.161] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether.enchantmentValue was corrected from null to its default, 20. 
+[09Jul2022 23:48:40.161] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether.thoughness was corrected from null to its default, 0.10000000149011612. 
+[09Jul2022 23:48:40.162] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key nether.knockbackResistance was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.163] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key obsidian was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.164] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key obsidian.durabilityFactor was corrected from null to its default, 40. 
+[09Jul2022 23:48:40.164] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key obsidian.damageReduction was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.165] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key obsidian.damageReduction.boots was corrected from null to its default, 3. 
+[09Jul2022 23:48:40.165] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key obsidian.damageReduction.leggings was corrected from null to its default, 6. 
+[09Jul2022 23:48:40.166] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key obsidian.damageReduction.chest was corrected from null to its default, 8. 
+[09Jul2022 23:48:40.166] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key obsidian.damageReduction.head was corrected from null to its default, 2. 
+[09Jul2022 23:48:40.167] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key obsidian.enchantmentValue was corrected from null to its default, 8. 
+[09Jul2022 23:48:40.167] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key obsidian.thoughness was corrected from null to its default, 1.5. 
+[09Jul2022 23:48:40.167] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key obsidian.knockbackResistance was corrected from null to its default, 0.30000001192092896. 
+[09Jul2022 23:48:40.169] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key paper was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.169] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key paper.durabilityFactor was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.169] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key paper.damageReduction was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.170] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key paper.damageReduction.boots was corrected from null to its default, 0. 
+[09Jul2022 23:48:40.170] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key paper.damageReduction.leggings was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.170] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key paper.damageReduction.chest was corrected from null to its default, 2. 
+[09Jul2022 23:48:40.171] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key paper.damageReduction.head was corrected from null to its default, 0. 
+[09Jul2022 23:48:40.171] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key paper.enchantmentValue was corrected from null to its default, 13. 
+[09Jul2022 23:48:40.171] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key paper.thoughness was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.171] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key paper.knockbackResistance was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.174] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key prismarine was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.174] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key prismarine.durabilityFactor was corrected from null to its default, 14. 
+[09Jul2022 23:48:40.175] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key prismarine.damageReduction was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.176] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key prismarine.damageReduction.boots was corrected from null to its default, 2. 
+[09Jul2022 23:48:40.176] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key prismarine.damageReduction.leggings was corrected from null to its default, 3. 
+[09Jul2022 23:48:40.177] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key prismarine.damageReduction.chest was corrected from null to its default, 5. 
+[09Jul2022 23:48:40.177] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key prismarine.damageReduction.head was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.177] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key prismarine.enchantmentValue was corrected from null to its default, 15. 
+[09Jul2022 23:48:40.177] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key prismarine.thoughness was corrected from null to its default, 0.10000000149011612. 
+[09Jul2022 23:48:40.178] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key prismarine.knockbackResistance was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.179] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key quartz was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.179] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key quartz.durabilityFactor was corrected from null to its default, 7. 
+[09Jul2022 23:48:40.179] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key quartz.damageReduction was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.180] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key quartz.damageReduction.boots was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.180] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key quartz.damageReduction.leggings was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.180] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key quartz.damageReduction.chest was corrected from null to its default, 2. 
+[09Jul2022 23:48:40.180] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key quartz.damageReduction.head was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.180] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key quartz.enchantmentValue was corrected from null to its default, 15. 
+[09Jul2022 23:48:40.181] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key quartz.thoughness was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.181] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key quartz.knockbackResistance was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.182] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.182] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.durabilityFactor was corrected from null to its default, 8. 
+[09Jul2022 23:48:40.182] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.damageReduction was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.183] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.damageReduction.boots was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.183] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.damageReduction.leggings was corrected from null to its default, 3. 
+[09Jul2022 23:48:40.183] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.damageReduction.chest was corrected from null to its default, 5. 
+[09Jul2022 23:48:40.183] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.damageReduction.head was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.184] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.enchantmentValue was corrected from null to its default, 15. 
+[09Jul2022 23:48:40.184] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.thoughness was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.184] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key redstone.knockbackResistance was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.186] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key slime was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.186] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key slime.durabilityFactor was corrected from null to its default, 36. 
+[09Jul2022 23:48:40.186] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key slime.damageReduction was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.187] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key slime.damageReduction.boots was corrected from null to its default, 4. 
+[09Jul2022 23:48:40.187] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key slime.damageReduction.leggings was corrected from null to its default, 6. 
+[09Jul2022 23:48:40.187] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key slime.damageReduction.chest was corrected from null to its default, 8. 
+[09Jul2022 23:48:40.188] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key slime.damageReduction.head was corrected from null to its default, 3. 
+[09Jul2022 23:48:40.188] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key slime.enchantmentValue was corrected from null to its default, 14. 
+[09Jul2022 23:48:40.188] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key slime.thoughness was corrected from null to its default, 0.10000000149011612. 
+[09Jul2022 23:48:40.188] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key slime.knockbackResistance was corrected from null to its default, 0.20000000298023224. 
+[09Jul2022 23:48:40.190] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key stone was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.190] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key stone.durabilityFactor was corrected from null to its default, 4. 
+[09Jul2022 23:48:40.190] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key stone.damageReduction was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.191] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key stone.damageReduction.boots was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.191] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key stone.damageReduction.leggings was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.191] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key stone.damageReduction.chest was corrected from null to its default, 3. 
+[09Jul2022 23:48:40.191] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key stone.damageReduction.head was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.192] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key stone.enchantmentValue was corrected from null to its default, 7. 
+[09Jul2022 23:48:40.192] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key stone.thoughness was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.193] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key stone.knockbackResistance was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.194] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wood was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.194] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wood.durabilityFactor was corrected from null to its default, 8. 
+[09Jul2022 23:48:40.195] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wood.damageReduction was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.195] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wood.damageReduction.boots was corrected from null to its default, 1. 
+[09Jul2022 23:48:40.195] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wood.damageReduction.leggings was corrected from null to its default, 2. 
+[09Jul2022 23:48:40.199] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wood.damageReduction.chest was corrected from null to its default, 3. 
+[09Jul2022 23:48:40.199] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wood.damageReduction.head was corrected from null to its default, 2. 
+[09Jul2022 23:48:40.200] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wood.enchantmentValue was corrected from null to its default, 5. 
+[09Jul2022 23:48:40.200] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wood.thoughness was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.200] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key wood.knockbackResistance was corrected from null to its default, 0.0. 
+[09Jul2022 23:48:40.209] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/minecraft/multicraft/servers/server176362/config/domestication-innovation.toml is not correct. Correcting
+[09Jul2022 23:48:40.210] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.210] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.trinary_command_system was corrected from null to its default, true. 
+[09Jul2022 23:48:40.210] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.tameable_axolotls was corrected from null to its default, true. 
+[09Jul2022 23:48:40.210] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.tameable_horse was corrected from null to its default, true. 
+[09Jul2022 23:48:40.210] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.tameable_fox was corrected from null to its default, true. 
+[09Jul2022 23:48:40.210] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.tameable_rabbit was corrected from null to its default, true. 
+[09Jul2022 23:48:40.211] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.tameable_frog was corrected from null to its default, true. 
+[09Jul2022 23:48:40.211] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.swing_through_pets was corrected from null to its default, true. 
+[09Jul2022 23:48:40.211] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.rotten_apple was corrected from null to its default, true. 
+[09Jul2022 23:48:40.211] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.pet_bed_respawns was corrected from null to its default, true. 
+[09Jul2022 23:48:40.211] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.collar_tags was corrected from null to its default, true. 
+[09Jul2022 23:48:40.211] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.rabbits_scare_ravagers was corrected from null to its default, true. 
+[09Jul2022 23:48:40.212] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.animal_tamer_villager was corrected from null to its default, true. 
+[09Jul2022 23:48:40.212] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.petstore_village_weight was corrected from null to its default, 17. 
+[09Jul2022 23:48:40.212] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.213] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot.sinister_carrot_loot_chance was corrected from null to its default, 0.11. 
+[09Jul2022 23:48:40.214] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot.bubbling_loot_chance was corrected from null to its default, 0.65. 
+[09Jul2022 23:48:40.215] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot.vampirism_loot_chance was corrected from null to its default, 0.13. 
+[09Jul2022 23:48:40.215] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot.void_cloud_loot_chance was corrected from null to its default, 0.13. 
+[09Jul2022 23:48:40.216] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot.ore_scenting_loot_chance was corrected from null to its default, 0.1. 
+[09Jul2022 23:48:40.216] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key loot.muffled_loot_chance was corrected from null to its default, 0.15. 
+[09Jul2022 23:48:40.218] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.218] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.health_boost_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.218] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.fireproof_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.218] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.immunity_frame_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.219] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.deflection_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.219] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.poison_resistance_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.219] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.chain_lightning_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.220] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.speedster_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.220] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.frost_fang_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.220] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.magnetic_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.221] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.linked_inventory_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.221] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.total_recall_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.221] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.health_siphon_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.221] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.bubbling_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.222] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.herding_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.222] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.amphibious_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.222] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.vampire_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.222] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.void_cloud_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.223] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.charisma_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.223] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.shadow_hands_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.223] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.disc_jockey_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.223] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.defusal_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.224] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.warping_bite_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.224] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.ore_scenting_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.224] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.gluttonous_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.224] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.psychic_wall_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.224] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.intimidation_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.225] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.tethered_teleport_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.225] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.muffled_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.225] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.undead_curse_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.225] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.infamy_curse_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.225] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.blight_curse_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.226] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enchantments.immaturity_curse_enabled was corrected from null to its default, true. 
+[09Jul2022 23:48:40.228] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/minecraft/multicraft/servers/server176362/config/ecologics-common.toml is not correct. Correcting
+[09Jul2022 23:48:40.228] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key beach was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.228] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key beach.coconutCrabSpawnChance was corrected from null to its default, 0.2. 
+[09Jul2022 23:48:40.229] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key desert was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.229] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key desert.pricklyPearGrowthChance was corrected from null to its default, 1.0. 
+[09Jul2022 23:48:40.230] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lush_caves was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.230] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key lush_caves.replaceAzaleaTree was corrected from null to its default, true. 
+[09Jul2022 23:48:40.232] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/minecraft/multicraft/servers/server176362/config/aquaculture-common.toml is not correct. Correcting
+[09Jul2022 23:48:40.233] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key basic options was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.233] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key basic options.Enable weight for fish? Useful for fishing competitions was corrected from null to its default, false. 
+[09Jul2022 23:48:40.233] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key basic options.Should fish be added as compostables for the composter/worm farm? (Based on fish, or weight if enabled) was corrected from null to its default, true. 
+[09Jul2022 23:48:40.233] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key basic options.Should Aquaculture fish be able to be used to breed cats & ocelots? was corrected from null to its default, true. 
+[09Jul2022 23:48:40.234] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key basic options.Amount of Message In A Bottle messages was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.234] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key basic options.Amount of Message In A Bottle messages. Used to add additional custom messages was corrected from null to its default, 29. 
+[09Jul2022 23:48:40.234] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key basic options.Enable debug mode? (Enables additional logging) was corrected from null to its default, false. 
+[09Jul2022 23:48:40.234] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key basic options.Show Fillet recipes in JEI? was corrected from null to its default, true. 
+[09Jul2022 23:48:40.235] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key neptunium options was corrected from null to its default, SimpleCommentedConfig:{}. 
+[09Jul2022 23:48:40.238] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key neptunium options.Enable recipes for Neptunium items? was corrected from null to its default, true. 
+[09Jul2022 23:48:40.238] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key neptunium options.Enable recipes for Neptunium armor? was corrected from null to its default, true. 
+[09Jul2022 23:48:40.239] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key neptunium options.Add Neptune's Bounty as loot? was corrected from null to its default, true. 
+[09Jul2022 23:48:40.343] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [infernalexp] Starting version check at https://infernalstudios.org/api/mods/infernalexpansion/forge
+[09Jul2022 23:48:40.350] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/home/minecraft/multicraft/servers/server176362/config/byg/end-biomes.json5" was read.
+[09Jul2022 23:48:40.399] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/home/minecraft/multicraft/servers/server176362/config/byg/nether-biomes.json5" was read.
+[09Jul2022 23:48:40.682] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/home/minecraft/multicraft/servers/server176362/config/byg/overworld/byg-overworld-biomes.json5" was read.
+[09Jul2022 23:48:40.817] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/home/minecraft/multicraft/servers/server176362/config/byg/growing-patterns.json5" was read.
+[09Jul2022 23:48:40.823] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [infernalexp] Found status: BETA Current: 2.5.1 Target: null
+[09Jul2022 23:48:40.824] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [teletubbies] Starting version check at https://raw.githubusercontent.com/Rexbas/Teletubbies-Mod/update/update.json
+[09Jul2022 23:48:40.898] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/home/minecraft/multicraft/servers/server176362/config/byg/trades.json5" was read.
+[09Jul2022 23:48:40.921] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/home/minecraft/multicraft/servers/server176362/config/byg/settings.json5" was read.
+[09Jul2022 23:48:40.925] [modloading-worker-0/INFO] [potionstudios.byg.BYG/]: "/home/minecraft/multicraft/servers/server176362/config/byg/biomepedia.json5" was read.
+[09Jul2022 23:48:40.927] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/]: Exception caught during firing event: Config errors were found:
+
+Jankson file creation for "/home/minecraft/multicraft/servers/server176362/config/byg/surface_rules/overworld_surface_rules.json5" failed due to the following error(s):
+Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}
+
+	Index: 1
+	Listeners:
+		0: NORMAL
+		1: net.minecraftforge.eventbus.EventBus$$Lambda$3043/0x0000000801484b40@6f016c8a
+java.lang.IllegalStateException: Config errors were found:
+
+Jankson file creation for "/home/minecraft/multicraft/servers/server176362/config/byg/surface_rules/overworld_surface_rules.json5" failed due to the following error(s):
+Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}
+
+	at TRANSFORMER/byg@2.0.0.5/potionstudios.byg.BYG.commonLoad(BYG.java:51)
+	at TRANSFORMER/byg@2.0.0.5/potionstudios.byg.BYGForge.commonLoad(BYGForge.java:76)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+	at LAYER PLUGIN/javafmllanguage@1.19-41.0.64/net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:107)
+	at LAYER PLUGIN/fmlcore@1.19-41.0.64/net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:122)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+[09Jul2022 23:48:40.932] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Caught exception during event FMLCommonSetupEvent dispatch for modid byg
+java.lang.IllegalStateException: Config errors were found:
+
+Jankson file creation for "/home/minecraft/multicraft/servers/server176362/config/byg/surface_rules/overworld_surface_rules.json5" failed due to the following error(s):
+Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}
+
+	at potionstudios.byg.BYG.commonLoad(BYG.java:51) ~[Oh_The_Biomes_You'll_Go-forge-1.19-2.0.0.5.jar%23137!/:2.0.0.5]
+	at potionstudios.byg.BYGForge.commonLoad(BYGForge.java:76) ~[Oh_The_Biomes_You'll_Go-forge-1.19-2.0.0.5.jar%23137!/:2.0.0.5]
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:247) ~[eventbus-6.0.0.jar%2350!/:?]
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:239) ~[eventbus-6.0.0.jar%2350!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:302) ~[eventbus-6.0.0.jar%2350!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:283) ~[eventbus-6.0.0.jar%2350!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:107) ~[javafmllanguage-1.19-41.0.64.jar%23154!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:122) ~[fmlcore-1.19-41.0.64.jar%23153!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[09Jul2022 23:48:40.936] [main/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event COMMON_SETUP, 1 errors found
+[09Jul2022 23:48:40.997] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [teletubbies] Found status: BETA Current: 10.0.0 Target: 10.0.0
+[09Jul2022 23:48:40.997] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/window.json
+[09Jul2022 23:48:41.003] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwwindows] Found status: UP_TO_DATE Current: 2.0.3 Target: null
+[09Jul2022 23:48:41.004] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[09Jul2022 23:48:41.044] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: UP_TO_DATE Current: 8.0.2 Target: null
+[09Jul2022 23:48:41.046] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guardvillagers] Starting version check at https://raw.githubusercontent.com/seymourimadeit/guardvillagers/master/update.json
+[09Jul2022 23:48:41.052] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [guardvillagers] Found status: OUTDATED Current: 1.4.2 Target: 1.5.0
+[09Jul2022 23:48:41.052] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/doors.json
+[09Jul2022 23:48:41.075] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwdoors] Found status: UP_TO_DATE Current: 1.0.6 Target: null
+[09Jul2022 23:48:41.075] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[09Jul2022 23:48:41.077] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 17fe1aa5-a3fb-49b2-a992-d01f817ccd54
+[09Jul2022 23:48:41.080] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2022-07-09_23.48.41-fml.txt
+[09Jul2022 23:48:41.089] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID cb86804e-a0fe-4aca-8b7f-801ffcb06805
+[09Jul2022 23:48:41.089] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
+	Oh The Biomes You'll Go (byg) encountered an error during the common_setup event phase
+§7java.lang.IllegalStateException: Config errors were found:
+
+Jankson file creation for "/home/minecraft/multicraft/servers/server176362/config/byg/surface_rules/overworld_surface_rules.json5" failed due to the following error(s):
+Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}; Unknown registry element in ResourceKey[minecraft:root / minecraft:block]:Block{minecraft:air}
+
+]
+	at net.minecraftforge.fml.ModLoader.waitForTransition(ModLoader.java:243) ~[fmlcore-1.19-41.0.64.jar%23153!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$24(ModLoader.java:208) ~[fmlcore-1.19-41.0.64.jar%23153!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:208) ~[fmlcore-1.19-41.0.64.jar%23153!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$loadMods$17(ModLoader.java:191) ~[fmlcore-1.19-41.0.64.jar%23153!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.loadMods(ModLoader.java:191) ~[fmlcore-1.19-41.0.64.jar%23153!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:33) ~[forge-1.19-41.0.64-universal.jar%23157!/:?]
+	at net.minecraft.server.Main.main(Main.java:113) ~[server-1.19-20220607.102129-srg.jar%23152!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19-41.0.64.jar%2365!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.1.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.1.jar%2353!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.1.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.1.jar%2353!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.1.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.1.jar%2353!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.1.jar%2353!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.1.jar:?]
+[09Jul2022 23:48:41.134] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 41.0.64 Target: 41.0.85
+[09Jul2022 23:48:41.134] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mcwbridges] Starting version check at https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/bridges.json
